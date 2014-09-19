@@ -1,10 +1,9 @@
-jQuery(function ($) {
-    $(window).on('resize', (function () {
-        var fn = function () {
-            $('.tm-slant-top + .tm-block > .tm-slant-block-top, .tm-slant-block-bottom').each(function () {
+jQuery(function($) {
+    $(window).on('resize', (function() {
+        var fn = function() {
+            $('.tm-slant-block-top, .tm-slant-block-bottom').each(function() {
                 var elem = $(this),
-                    //slantWidth = elem.parent().outerWidth(),
-                    slantWidth = $(document).outerWidth(),
+                    slantWidth = elem.parent().outerWidth(),
                     slantHeight = slantWidth / 100 * 2.5,
                     css = {
                         'border-right-width': slantWidth,

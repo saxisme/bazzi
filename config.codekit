@@ -20,6 +20,94 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/images\/banner-cenni-storici-IMG_7596_blue 3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 931263,
+		"inputAbbreviatedPath": "\/images\/banner-cenni-storici-IMG_7596_blue 3.png",
+		"outputAbbreviatedPath": "\/images\/banner-cenni-storici-IMG_7596_blue 3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/banner-dati-aziendali-IMG_7596_blue 4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 764706,
+		"inputAbbreviatedPath": "\/images\/banner-dati-aziendali-IMG_7596_blue 4.png",
+		"outputAbbreviatedPath": "\/images\/banner-dati-aziendali-IMG_7596_blue 4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/banner-footer.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 246692,
+		"inputAbbreviatedPath": "\/images\/banner-footer.jpg",
+		"outputAbbreviatedPath": "\/images\/banner-footer.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/banner-footer.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 960537,
+		"inputAbbreviatedPath": "\/images\/banner-footer.png",
+		"outputAbbreviatedPath": "\/images\/banner-footer.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/banner-homepage-Dollarphotoclub_58496737 copy.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.80562e+06,
+		"inputAbbreviatedPath": "\/images\/banner-homepage-Dollarphotoclub_58496737 copy.png",
+		"outputAbbreviatedPath": "\/images\/banner-homepage-Dollarphotoclub_58496737 copy.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/banner-mission-IMG_7596_blue 2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 607386,
+		"inputAbbreviatedPath": "\/images\/banner-mission-IMG_7596_blue 2.png",
+		"outputAbbreviatedPath": "\/images\/banner-mission-IMG_7596_blue 2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/book.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 363430,
+		"inputAbbreviatedPath": "\/images\/book.png",
+		"outputAbbreviatedPath": "\/images\/book.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/chi-siamo-IMG_0535.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 936179,
+		"inputAbbreviatedPath": "\/images\/chi-siamo-IMG_0535.png",
+		"outputAbbreviatedPath": "\/images\/chi-siamo-IMG_0535.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/images\/logo-genesis.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -38,6 +126,17 @@
 		"initialSize": 10057,
 		"inputAbbreviatedPath": "\/images\/logo.png",
 		"outputAbbreviatedPath": "\/images\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/logo@2x-genesis.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17198,
+		"inputAbbreviatedPath": "\/images\/logo@2x-genesis.png",
+		"outputAbbreviatedPath": "\/images\/logo@2x-genesis.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -159,6 +258,24 @@
 		"strictImports": 0,
 		"strictMath": 0,
 		"strictUnits": 0
+		},
+	"\/template-case-history copy.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/template-case-history copy.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/template-case-history.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/template-case-history.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
