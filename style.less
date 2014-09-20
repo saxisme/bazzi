@@ -1315,8 +1315,27 @@ Site Header
 
 /* ## Header Banner
 --------------------------------------------- */
+.parallax-section {
+	background-attachment: fixed;
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size:    cover;
+	background-size:         cover;
+	font-size: 28px;
+	// padding: 190px 0 200px;
+	text-align: center;
+	color: #fff;
+}
+
+#parallax-banner {
+	position: relative;
+	overflow: hidden;
+}
+
 .header-banner {
 	position: relative;
+	height: 500px;
 
 	.wrap {
 		position: absolute;
