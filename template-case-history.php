@@ -3,7 +3,7 @@
 /**
 * Template Name: Case History
 * Description: Used as a page template to show page contents, followed by the Case History 
-* through the "Case Histories" CPT
+* through the "Case Histories" CPTs
 */
 
 // Enque scripts
