@@ -1,5 +1,5 @@
 jQuery(document).ready(function($) {
-	$('.gallery a').colorbox({
+	$('.gallery-group a').colorbox({
 		rel:'gal'
 	});
 });
