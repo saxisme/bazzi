@@ -933,6 +933,7 @@ img#wpstats {
   display: none;
 }
 .content .tiled-gallery {
+  margin-top: -20px;
   margin-bottom: 0;
 }
 /*

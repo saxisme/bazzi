@@ -51,7 +51,7 @@ function sax_case_history() {
 		<h3 class="trigger"><a href="#"><?php the_title(); ?></a></h3>
 		<div class="toggle_container">
 			<ul>
-				<li><?php echo do_shortcode('[gallery type="rectangular" link="none" orderby="rand"]');//the_post_thumbnail ('medium'); ?></li>
+				<li><?php echo do_shortcode('[gallery type="rectangular" link="attachment" orderby="rand"]');//the_post_thumbnail ('medium'); ?></li>
 				<li>Data accadimento: <span><?php echo $data_accadimento; ?></li>
 				<li>Importo anticipo indennizzo: <span><?php echo $importo_anticipo_indennizzo; ?></li>
 				<li>Data anticipo indennizzo: <span><?php echo $data_anticipo_indennizzo; ?></li>
