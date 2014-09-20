@@ -75,6 +75,7 @@ Variables
 @font: 'Raleway', sans-serif;
 @white: #fff;
 @blue-text: #004E83;
+@blue-text-breadcrumb: #007eb9;
 @blue-background: #004E83;
 @blue-menu-hover: #004E83;
 @blue-button: #0075C3;
@@ -666,6 +667,13 @@ img.alignright,
 	font-size: 12px;
 	font-size: 1.2rem;
 	margin-bottom: 0;
+
+	a {
+		color: @blue-text-breadcrumb;
+	}
+	a:hover {
+		color: darken(@blue-text-breadcrumb, 10%);
+	}
 }
 
 .archive-description,
@@ -922,6 +930,9 @@ img#wpstats {
 	display: none;
 }
 
+.tiled-gallery {
+	margin-bottom: 0;
+}
 
 /*
 Site Header

@@ -707,6 +707,12 @@ img.alignright,
   font-size: 1.2rem;
   margin-bottom: 0;
 }
+.breadcrumb a {
+  color: #007eb9;
+}
+.breadcrumb a:hover {
+  color: #005b86;
+}
 .archive-description,
 .author-box {
   background-color: #fff;
@@ -925,6 +931,9 @@ div.gform_wrapper .gform_footer input[type="submit"] {
 --------------------------------------------- */
 img#wpstats {
   display: none;
+}
+.tiled-gallery {
+  margin-bottom: 0;
 }
 /*
 Site Header
