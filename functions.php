@@ -170,6 +170,24 @@ function sax_content_wrapper_after() {
 	echo '</div>';
 }
 
+
+/**
+ * Add parallax
+ * Include Stellar.js only for non-mobile devices
+ *
+ * @author Sacha Benda
+ */
+add_action( 'wp_enqueue_scripts', 'sax_enqueue_stellar' );
+function sax_enqueue_stellar() {
+ 
+	if ( wp_is_mobile() )
+		return;
+ 
+	wp_enqueue_script( 'stellar',  get_stylesheet_directory_uri() . '/js/jquery.stellar.min.js', array( 'jquery' ), CHILD_THEME_VERSION, true );
+	wp_enqueue_script( 'stellar-init',  get_stylesheet_directory_uri() . '/js/jquery.stellar.init.js', array( 'stellar' ), '1.0.0', true );
+ 
+}
+
 /**
  * Display image below header
  *
@@ -181,8 +199,11 @@ function sax_add_header_image() {
 	global $post;
 	$header_image = get_post_meta( get_the_ID(), 'wpcf-banner-image', true);
 	if ( $header_image != "" ) {
+		echo '<style>#parallax-banner{background-image:url("'. $header_image .'");}</style>';
+		echo '<div id="parallax-banner" class="parallax-section" data-stellar-background-ratio="0.6">';
 		echo '<div class="header-banner">';
-		echo '<img src="'. $header_image . '" alt="banner"/><div class="wrap">';
+		//echo '<img src="'. $header_image . '" alt="banner"/>';
+		echo '<div class="wrap">';
 		//get the custom fields for the Top Banner section
 		$header_vp = get_post_meta( get_the_ID(), 'wpcf-banner-value-proposition', true);
 		$header_button = get_post_meta( get_the_ID(), 'wpcf-banner-button-text', true);
@@ -202,9 +223,10 @@ function sax_add_header_image() {
 				</div>
 			<?php }
 		echo '</div>';
-		echo '</div><div class="tm-slant-block-top slant-banner"></div></div>';		
+		echo '</div><div class="tm-slant-block-top slant-banner"></div></div></div>';		
 	}
 }
+
 
 /**
  * SHORTCODES
