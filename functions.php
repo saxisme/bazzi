@@ -227,7 +227,6 @@ function sax_add_header_image() {
 	}
 }
 
-
 /**
  * SHORTCODES
  *

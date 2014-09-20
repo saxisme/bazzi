@@ -9,7 +9,8 @@
 // Enque scripts
 wp_enqueue_script('jquery-ui-accordion');
 wp_enqueue_script( 'toggle-accordion', get_bloginfo( 'stylesheet_directory' ) . '/js/toggle-accordion.init.js', array( 'jquery-ui-accordion' ), CHILD_THEME_VERSION );
-
+wp_enqueue_script( 'colorbox', get_bloginfo( 'stylesheet_directory' ) . '/js/jquery.colorbox-min.js', array( 'jquery' ), CHILD_THEME_VERSION );
+wp_enqueue_script( 'colorbox-init', get_bloginfo( 'stylesheet_directory' ) . '/js/colorbox-init.js', array( 'colorbox' ), CHILD_THEME_VERSION );
 
 // Add our custom loop
 //remove_action('genesis_loop','genesis_do_loop'); //remove if the default content is not neede
@@ -51,7 +52,7 @@ function sax_case_history() {
 		<h3 class="trigger"><a href="#"><?php the_title(); ?></a></h3>
 		<div class="toggle_container">
 			<ul>
-				<li><?php echo do_shortcode('[gallery type="rectangular" link="attachment" orderby="rand"]');//the_post_thumbnail ('medium'); ?></li>
+				<li><?php echo do_shortcode('[gallery type="rectangular" link="file" orderby="rand"]');//the_post_thumbnail ('medium'); ?></li>
 				<li>Data accadimento: <span><?php echo $data_accadimento; ?></li>
 				<li>Importo anticipo indennizzo: <span><?php echo $importo_anticipo_indennizzo; ?></li>
 				<li>Data anticipo indennizzo: <span><?php echo $data_anticipo_indennizzo; ?></li>
