@@ -132,8 +132,7 @@ dfn {
 }
 hr {
   -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
   height: 0;
 }
 mark {
@@ -217,9 +216,7 @@ html input[disabled] {
 }
 input[type="checkbox"],
 input[type="radio"] {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 0;
 }
 input[type="search"] {
@@ -314,6 +311,9 @@ input[type="submit"],
 textarea:focus,
 .button {
   -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
 ::-moz-selection {
@@ -440,8 +440,7 @@ textarea {
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 0px;
-  -webkit-box-shadow: 1px 1px 3px #eee inset;
-          box-shadow: 1px 1px 3px #eee inset;
+  box-shadow: 1px 1px 3px #eee inset;
   color: #999;
   font-size: 14px;
   font-size: 1.4rem;
@@ -469,8 +468,7 @@ input[type="submit"],
 .entry-content .button {
   background-color: #004e83;
   border: none;
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   color: #fff;
   cursor: pointer;
   padding: 8px 14px;
@@ -943,7 +941,7 @@ Site Header
   background-color: #fff;
   position: relative;
 }
-.site-header .wrap > .tm-slant-block-bottom {
+.site-header .wrap .header-image .site-header .wrap > .tm-slant-block-bottom {
   position: absolute;
   right: 0;
   bottom: -60px;
@@ -1049,6 +1047,9 @@ Site Header
   opacity: 0;
   position: absolute;
   -webkit-transition: opacity 0.4s ease-in-out;
+  -moz-transition: opacity 0.4s ease-in-out;
+  -ms-transition: opacity 0.4s ease-in-out;
+  -o-transition: opacity 0.4s ease-in-out;
   transition: opacity 0.4s ease-in-out;
   width: 180px;
   z-index: 100;
@@ -1141,6 +1142,7 @@ Site Header
   background-position: 0px 0px;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
+  -moz-background-size: cover;
   background-size: cover;
   font-size: 28px;
   text-align: center;
@@ -1819,8 +1821,10 @@ Media Queries
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
   .header-image .site-header .wrap {
     background: url(images/logo@2x.png) no-repeat left;
-    -webkit-background-size: 320px 164px;
-            background-size: 320px 164px;
+    background-size: 320px 164px;
+  }
+  .header-image .site-title > a {
+    background-image: none;
   }
 }
 @media only screen and (max-width: 1139px) {
