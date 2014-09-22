@@ -279,7 +279,9 @@ function sax_post_listing_parameters_shortcode( $atts ) {
 		                <h2 class="entry-title"><a href="<?php echo genesis_get_custom_field( '_url' ) ?>"><?php the_title(); ?></a></h2>
 		                <div class="entry-content clearfix">
 		                	<?php the_excerpt(); ?>
-		                	<div class="button featured-button"><a href="<?php echo genesis_get_custom_field( '_url' ); ?>"><?php echo __('DETTAGLI'); ?></a></div>
+		                	if $url != '' {
+		                		<div class="button featured-button"><a href="<?php echo $url; ?>"><?php echo __('DETTAGLI'); ?></a></div>
+		                	}
 		                </div>
 	            	</div>
 	            </article>
