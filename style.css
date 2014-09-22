@@ -1068,7 +1068,7 @@ Site Header
   background-color: #003050;
 }
 .genesis-nav-menu .sub-menu .sub-menu {
-  margin: -55px 0 0 199px;
+  margin: -55px 0 0 180px;
 }
 .genesis-nav-menu .menu-item:hover {
   position: static;
@@ -1112,11 +1112,15 @@ Site Header
   margin-bottom: 15px;
 }
 .site-header .sub-menu .sub-menu {
-  margin-top: -56px;
+  background-color: transparent;
+  margin-top: -58px;
+}
+.site-header .sub-menu .sub-menu a {
+  margin: 0;
 }
 .site-header .genesis-nav-menu li li {
   margin-left: 0;
-  background-color: #004e83;
+  background-color: transparent;
 }
 /* Primary Navigation
 --------------------------------------------- */
