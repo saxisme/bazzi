@@ -274,7 +274,11 @@ function sax_post_listing_parameters_shortcode( $atts ) {
 			// if ( $file_url ='' && $url ='' ) { $class .= ' clearfix no-button'};
 			?>
 	            <article id="post-<?php the_ID(); ?>" <?php post_class($class); ?>>
-	            	<div class="image-wrapper"><a href="<?php echo genesis_get_custom_field( '_url' ) ?>"><?php the_post_thumbnail ( 'features-thumb' ); ?></a></div>
+	            	<?php if ( $url != '' ) { ?>
+	            		<div class="image-wrapper"><a href="<?php echo genesis_get_custom_field( '_url' ) ?>"><?php the_post_thumbnail ( 'features-thumb' ); ?></a></div>
+	            	<?php else { ?>
+	            		<div class="image-wrapper"><?php the_post_thumbnail ( 'features-thumb' ); ?></div>	            	
+	            	<?php } ?>	
 	                <div class="content-wrapper">
 		                <h2 class="entry-title"><a href="<?php echo genesis_get_custom_field( '_url' ) ?>"><?php the_title(); ?></a></h2>
 		                <div class="entry-content clearfix">
