@@ -288,6 +288,9 @@ function sax_post_listing_parameters_shortcode( $atts ) {
 		                	<?php if ( $url != '' ) { ?>
 		                		<div class="button featured-button"><a href="<?php echo $url; ?>"><?php echo __('DETTAGLI'); ?></a></div>
 		                	<?php } ?>
+		                	<?php if ( $file_url != '' ) { ?>
+		                		<div class="button featured-button"><a href="<?php echo $file_url; ?>"><?php echo __('SCARICA LA BROCHURE'); ?></a></div>
+		                	<?php } ?>
 		                </div>
 	            	</div>
 	            </article>
