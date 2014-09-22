@@ -1640,7 +1640,10 @@ Footer Widgets
   padding: 40px 0 16px;
   padding: 4rem 0 1.6rem;
 }
-.footer-widgets .footer-widgets-1,
+.footer-widgets .footer-widgets-1 {
+  float: left;
+  width: 65.81196581196582%;
+}
 .footer-widgets .footer-widgets-2,
 .footer-widgets .footer-widgets-3 {
   float: left;
