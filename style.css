@@ -1492,6 +1492,7 @@ Sidebars
 .posts-listing.wrapper {
   margin-top: 40px;
   margin-top: 4rem;
+  position: relative;
 }
 .posts-listing.wrapper article {
   padding-top: 0;
@@ -1599,6 +1600,7 @@ Sidebars
   right: 0;
   left: initial;
   bottom: initial;
+  position: relative;
 }
 /*Widget Twitter*/
 .widget.twitter .textwidget {
