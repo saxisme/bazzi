@@ -14,11 +14,12 @@ define( 'CHILD_THEME_NAME', 'Bazzi&Partners' );
 define( 'CHILD_THEME_URL', 'http://www.theblink.it/' );
 define( 'CHILD_THEME_VERSION', '1.0' );
 
-//* Enqueue Google fonts
+//* Enqueue Google fonts and FontAwesome
 add_action( 'wp_enqueue_scripts', 'genesis_sample_google_fonts' );
 function genesis_sample_google_fonts() {
 	wp_enqueue_style( 'google-font-lato', '//fonts.googleapis.com/css?family=Lato:300,700', array(), CHILD_THEME_VERSION );
 	wp_enqueue_style( 'google-font-raleway','http://fonts.googleapis.com/css?family=Raleway:400,700', array(), CHILD_THEME_VERSION );
+	wp_enqueue_style( 'fontawesome','//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css', array(), CHILD_THEME_VERSION );
 	wp_enqueue_script( 'on-load-js', get_bloginfo( 'stylesheet_directory' ) . '/js/onload.js', array( 'jquery' ), CHILD_THEME_VERSION );
 }
 
