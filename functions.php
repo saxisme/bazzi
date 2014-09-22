@@ -52,7 +52,7 @@ add_theme_support( 'genesis-responsive-viewport' );
 add_theme_support( 'custom-background' );
 
 //* Add support for 3-column footer widgets
-add_theme_support( 'genesis-footer-widgets', 3 );
+add_theme_support( 'genesis-footer-widgets', 2 );
 
 add_theme_support( 'genesis-structural-wraps', array( 'header', 'nav', 'subnav', 'inner', 'footer-widgets', 'footer' ) );
 
@@ -102,6 +102,7 @@ function sax_secondary_sidebar() {
 	echo '<div class="wrap clearfix">';
 	echo '</div></aside>';
 }
+
 //add_action( 'genesis_before_footer', 'sax_footer_banner' );
 /**
  * Relocate Footer Widgets
