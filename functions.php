@@ -276,7 +276,7 @@ function sax_post_listing_parameters_shortcode( $atts ) {
 	            <article id="post-<?php the_ID(); ?>" <?php post_class($class); ?>>
 	            	<?php if ( $url != '' ) { ?>
 	            		<div class="image-wrapper"><a href="<?php echo genesis_get_custom_field( '_url' ) ?>"><?php the_post_thumbnail ( 'features-thumb' ); ?></a></div>
-	            	<?php else { ?>
+	            	<?php } else { ?>
 	            		<div class="image-wrapper"><?php the_post_thumbnail ( 'features-thumb' ); ?></div>	            	
 	            	<?php } ?>	
 	                <div class="content-wrapper">
