@@ -98,7 +98,7 @@ function sax_secondary_sidebar() {
 		echo '</div></aside>';
 	}
 	echo '<div class="clearfix"></div><aside class="footer-banner full-width">';
-	echo '<img src="'. get_stylesheet_directory_uri() . '/images/banner-footer.png" alt="footer banner"/>';
+	echo '<img src="'. get_stylesheet_directory_uri() . '/images/banner-footer-compressed.jpeg" alt="footer banner"/>';
 	echo '<div class="wrap clearfix">';
 	echo '</div></aside>';
 }
