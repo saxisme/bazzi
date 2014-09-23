@@ -158,10 +158,11 @@ function sp_search_text( $text ) {
  * @author Sacha Benda
  * @ref http://www.wetherbyhigh.co.uk/en/
  */
-add_action( 'genesis_header','sax_slant_border' );
+//add_action( 'genesis_header','sax_slant_border' );
 function sax_slant_border() {
 	echo '<div class="tm-slant-block-bottom"></div>';
 }
+
 //* Add extra wrapper div
 add_action( 'genesis_before_content_sidebar_wrap', 'sax_content_wrapper_before' );
 function sax_content_wrapper_before() {
