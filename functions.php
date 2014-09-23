@@ -203,7 +203,7 @@ function sax_add_header_image() {
 	$header_image = get_post_meta( get_the_ID(), 'wpcf-banner-image', true);
 	if ( $header_image != "" ) {
 		echo '<style>#parallax-banner{background-image:url("'. $header_image .'");}</style>';
-		echo '<div id="parallax-banner" class="parallax-section" data-stellar-background-ratio="0.5">';
+		echo '<div id="parallax-banner" class="parallax-section" data-stellar-background-ratio="0.2">';
 		echo '<div class="header-banner"><div class="tm-slant-block-bottom"></div>';
 		//echo '<img src="'. $header_image . '" alt="banner"/>';
 		echo '<div class="wrap">';
