@@ -1719,6 +1719,9 @@ Site Footer
 aside.footer-banner.full-width {
   position: relative;
 }
+aside.footer-banner.full-width img {
+  width: 100%;
+}
 .site-footer {
   background-color: #000;
   color: #999;
