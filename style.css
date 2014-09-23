@@ -1582,6 +1582,10 @@ Sidebars
 .widget.full-width .entry-content p {
   color: #fff;
 }
+.widget.full-width .posts-listing .entry-content p {
+  margin-bottom: 30px;
+  margin-bottom: 3rem;
+}
 .widget.full-width .entry-title {
   margin-bottom: 24px;
   text-align: left;
