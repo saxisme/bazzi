@@ -1639,6 +1639,10 @@ Sidebars
   color: #fff;
   background-color: #00385d;
 }
+/*Spacer */
+.after-content .wrap .widget.spacer {
+  padding-top: 10rem;
+}
 /*
 Footer Widgets
 ---------------------------------------------------------------------------------------------------- */
