@@ -203,7 +203,7 @@ function sax_add_header_image() {
 	if ( $header_image != "" ) {
 		echo '<style>#parallax-banner{background-image:url("'. $header_image .'");}</style>';
 		echo '<div id="parallax-banner" class="parallax-section" data-stellar-background-ratio="0.6">';
-		echo '<div class="header-banner">';
+		echo '<div class="header-banner"><div class="tm-slant-block-bottom"></div>';
 		//echo '<img src="'. $header_image . '" alt="banner"/>';
 		echo '<div class="wrap">';
 		//get the custom fields for the Top Banner section

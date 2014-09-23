@@ -36,6 +36,7 @@
 		- Titles
 	- Widgets
 		- Featured Content
+		- Contact Form 7
 	- Plugins
 		- Genesis eNews Extended
 		- Genesis Latest Tweets
@@ -794,6 +795,8 @@ Widgets
 .featured-content .entry-title a {
   border: none;
 }
+/* Contact Form 7
+--------------------------------------------- */
 /* Search Box
 --------------------------------------------- */
 input:focus::-webkit-input-placeholder {
@@ -945,6 +948,18 @@ Site Header
   position: absolute;
   right: 0;
   bottom: -60px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-width: 60px 0px 0 0;
+  border-style: solid dashed solid solid;
+  border-color: #ffffff rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  z-index: 99;
+}
+.header-banner > .tm-slant-block-bottom {
+  position: absolute;
+  right: 0;
+  top: 0!important;
   left: 0;
   width: 0;
   height: 0;
