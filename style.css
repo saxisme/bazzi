@@ -1711,7 +1711,7 @@ aside.footer-banner.full-width {
   position: relative;
 }
 .site-footer {
-  background-color: #fff;
+  background-color: #000;
   color: #999;
   font-size: 14px;
   font-size: 1.4rem;
@@ -1720,7 +1720,11 @@ aside.footer-banner.full-width {
   text-align: center;
 }
 .site-footer a {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 0;
+  color: #bdbdbd;
+}
+.site-footer a:hover {
+  color: #a4a4a4;
 }
 .site-footer p {
   margin-bottom: 0;

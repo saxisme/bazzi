@@ -87,6 +87,7 @@ Variables
 @gray-text-default: #4A4A4A;
 @gray-text-menu: #717171;
 @orange: #E6762B;
+@font-footer: #BDBDBD; 
 
 
 /*
@@ -1907,7 +1908,7 @@ aside.footer-banner.full-width {
 }
 
 .site-footer {
-	background-color: #fff;
+	background-color: #000;
 	color: #999;
 	font-size: 14px;
 	font-size: 1.4rem;
@@ -1917,7 +1918,12 @@ aside.footer-banner.full-width {
 }
 
 .site-footer a {
-	border-bottom: 1px solid #ddd;
+	border-bottom: 0;
+	color: @font-footer;
+}
+
+.site-footer a:hover {
+	color: darken(@font-footer, 10%);
 }
 
 .site-footer p {
