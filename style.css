@@ -1445,21 +1445,6 @@ Sidebars
 .after-content .wrap .blue-background {
   background-color: #004e83;
 }
-.after-content .wrap .widget.cta {
-  text-align: center;
-}
-.after-content .wrap .widget.cta .cta-text {
-  color: #FFF;
-  font-size: 30px;
-  margin-bottom: 12px;
-}
-.after-content .wrap .button-cta {
-  background-color: #0075c3;
-}
-.after-content .wrap .button-cta:hover {
-  color: #fff;
-  background-color: #00385d;
-}
 /*Widget Custom Menu*/
 .sidebar .widget_nav_menu .widget-wrap {
   background-color: #004e83;
@@ -1631,6 +1616,28 @@ Sidebars
 .page-id-37 aside.footer-banner.full-width,
 .page-id-44 aside.footer-banner.full-width {
   margin-top: -115px;
+}
+/*Widget CTA*/
+.after-content .wrap .widget.cta {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.widget.cta {
+  text-align: center;
+}
+.widget.cta .cta-text {
+  color: #FFF;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.button-cta {
+  background-color: #0075c3;
+}
+.button-cta:hover {
+  color: #fff;
+  background-color: #00385d;
 }
 /*
 Footer Widgets

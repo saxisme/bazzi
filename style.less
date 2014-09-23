@@ -1564,23 +1564,6 @@ Sidebars
 	.blue-background {
 		background-color: @blue-background;
 	}
-	.widget.cta {
-		text-align: center;
-
-		.cta-text {
-			color: #FFF;
-			font-size: 30px;
-			margin-bottom: 12px;
-		}
-	}
-			.button-cta {
-			background-color: @blue-button;
-		}
-		.button-cta:hover{
-			color:#fff;
-			background-color: darken(@blue-button, 20%);
-		}
-
 }
 
 /*Widget Custom Menu*/
@@ -1689,6 +1672,7 @@ Sidebars
 		background-color: darken(@blue-background, 10%)
 	}
 }
+
 /*Widget catalogo (con classe .full-width)*/
 .widget.full-width {
 	background-color: @blue-background;
@@ -1764,13 +1748,37 @@ Sidebars
 }
 .page-id-37, .page-id-44 {
 	.after-content .wrap .widget.cta {
-	text-align: center;
-	padding-bottom: 70px;
+		text-align: center;
+		padding-bottom: 70px;
 	}
-aside.footer-banner.full-width {
-margin-top: -115px;
-}	
+	aside.footer-banner.full-width {
+		margin-top: -115px;
+	}	
 }
+/*Widget CTA*/
+.after-content .wrap .widget.cta {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	padding-top: 6rem;
+	padding-bottom: 6rem;
+}
+.widget.cta {
+	text-align: center;
+
+	.cta-text {
+		color: #FFF;
+		font-size: 30px;
+		margin-bottom: 20px;
+	}
+}
+.button-cta {
+	background-color: @blue-button;
+}
+.button-cta:hover{
+	color:#fff;
+	background-color: darken(@blue-button, 20%);
+}
+
 /*
 Footer Widgets
 ---------------------------------------------------------------------------------------------------- */
