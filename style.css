@@ -797,6 +797,9 @@ Widgets
 }
 /* Contact Form 7
 --------------------------------------------- */
+.wpcf7-submit button {
+  font-size: 18px;
+}
 /* Search Box
 --------------------------------------------- */
 input:focus::-webkit-input-placeholder {
@@ -1617,18 +1620,6 @@ Sidebars
   font-size: 14px;
 }
 /*Temporary Fixes*/
-.page-id-10 aside.footer-banner.full-width {
-  margin-top: -151px;
-}
-.page-id-37 .after-content .wrap .widget.cta,
-.page-id-44 .after-content .wrap .widget.cta {
-  text-align: center;
-  padding-bottom: 70px;
-}
-.page-id-37 aside.footer-banner.full-width,
-.page-id-44 aside.footer-banner.full-width {
-  margin-top: -115px;
-}
 /*Widget CTA*/
 .after-content .wrap .widget.cta {
   padding-top: 60px;
@@ -1714,6 +1705,7 @@ Site Footer
 ---------------------------------------------------------------------------------------------------- */
 aside.footer-banner.full-width {
   margin-top: -50px;
+  position: relative;
 }
 .site-footer {
   background-color: #fff;
