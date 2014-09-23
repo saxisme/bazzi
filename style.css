@@ -1659,6 +1659,12 @@ Footer Widgets
   padding: 40px 0 16px;
   padding: 4rem 0 1.6rem;
 }
+.footer-widgets {
+  position: relative;
+}
+.footer-widgets .tm-slant-block-top.widget-slant {
+  border-color: rgba(0, 0, 0, 0) #013254 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+}
 .footer-widgets .footer-widgets-1 {
   float: left;
   width: 65.81196581196582%;

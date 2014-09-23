@@ -100,7 +100,7 @@ function sax_secondary_sidebar() {
 	echo '<div class="clearfix"></div><aside class="footer-banner full-width">';
 	echo '<img src="'. get_stylesheet_directory_uri() . '/images/banner-footer-2.jpg" alt="footer banner" class="slant"/>';
 	echo '<div class="wrap clearfix">';
-	echo '</div></aside>';
+	echo '</div></aside></div>';
 }
 
 //add_action( 'genesis_before_footer', 'sax_footer_banner' );
