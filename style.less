@@ -1239,7 +1239,7 @@ Site Header
 
 .header-banner {
 	position: relative;
-	height: 500px;
+	height: 344px;
 
 	.wrap {
 		position: absolute;
@@ -1287,6 +1287,10 @@ Site Header
 		border-color: rgba(0, 0, 0, 0) #FFF rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
 		z-index: 99;
 	}	
+}
+
+.home .header-banner {
+	height: 630px;
 }
 
 /*
@@ -2024,6 +2028,19 @@ section.slant {
 	z-index: 99;
 }
 
+section.slant.slant-gray {
+	.tm-slant-block-bottom.widget-slant,
+	.tm-slant-block-top.widget-slant {
+		border-color: rgba(0, 0, 0, 0) @gray-background rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+	}
+}
+
+section.slant.slant-white {
+	.tm-slant-block-bottom.widget-slant,
+	.tm-slant-block-top.widget-slant {
+		border-color: rgba(0, 0, 0, 0) @white rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+	}
+}
 
 /* Widgetized Homepage
 --------------------------------------------- */

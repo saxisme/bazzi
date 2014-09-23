@@ -1176,7 +1176,7 @@ Site Header
 }
 .header-banner {
   position: relative;
-  height: 500px;
+  height: 344px;
 }
 .header-banner .wrap {
   display: block;
@@ -1222,6 +1222,9 @@ Site Header
   border-style: solid solid solid dashed;
   border-color: rgba(0, 0, 0, 0) #ffffff rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
   z-index: 99;
+}
+.home .header-banner {
+  height: 630px;
 }
 /*
 Content Area
@@ -1811,6 +1814,14 @@ section.slant {
   border-style: solid solid solid dashed;
   border-color: rgba(0, 0, 0, 0) #004e83 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
   z-index: 99;
+}
+section.slant.slant-gray .tm-slant-block-bottom.widget-slant,
+section.slant.slant-gray .tm-slant-block-top.widget-slant {
+  border-color: rgba(0, 0, 0, 0) #eeeeee rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+}
+section.slant.slant-white .tm-slant-block-bottom.widget-slant,
+section.slant.slant-white .tm-slant-block-top.widget-slant {
+  border-color: rgba(0, 0, 0, 0) #ffffff rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
 }
 /* Widgetized Homepage
 --------------------------------------------- */
